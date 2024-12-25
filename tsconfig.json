@@ -6,8 +6,9 @@
     "strict": true,
     "esModuleInterop": true,
     "skipLibCheck": true,
-    "outDir": "dist"
+    "outDir": "dist",
+    "typeRoots": ["./node_modules/@types", "./src/types/index.d.ts"]
   },
-  "include": ["src"],
+  "include": ["src", "src/types/index.d.ts"],
   "exclude": ["node_modules", "dist"]
 }
